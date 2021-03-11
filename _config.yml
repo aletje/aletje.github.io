@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: jekyll-theme-cayman
+remote_theme: minima
 plugins:
   - jekyll-feed
 
