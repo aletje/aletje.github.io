@@ -21,13 +21,10 @@
 title: DWH Blog
 email: aleksander.tjernes@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Dear reader, a warm welcome to you. My aim of this blog is to document new or challenging concepts in Data Engineering that I learn throughtout my Nano Degree in Data Engineering at Udacity.
-  I will share and discuss important concepts that I learn throughout my course, 
-  and also share valuable lessons I'm encountering on my path to begin freelancing as a Data Engineer. 
+Transforming data into valuable insight
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  aletje
 
 # Build settings
 theme: minima
