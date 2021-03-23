@@ -1,1 +1,1 @@
-# Not yet started
+# Jekyll DWH Blog site on github pages
