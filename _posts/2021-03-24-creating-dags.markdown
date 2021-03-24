@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "Creating a DAG with Airflow"
+title:  "Data Pipelines with Airflow - Creating a DAG"
 date:   2021-03-11 15:05:45 +0100
-categories: jekyll update
+categories: DAG, Airflow, Data Pipeline, ETL
 ---
 
-# Data Pipelines with Airflow
+### Creating a DAG:
+Notes from Udacity Data Engineering Nano Degree - lesson 1 chapter 13
 
-## Creating a DAG
-(Notes from Udacity Data Engineering Nano Degree - lesson 1 chapter 13)
-
-### Creating a DAG: 
 - Give it a name
 - description 
 - start date
