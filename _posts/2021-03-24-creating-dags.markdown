@@ -17,15 +17,17 @@ categories: jekyll update
 - interval
 
 {% highlight python %}
-from airflow import DAG
 divvy_dag = DAG(
     'divvy',
     description='Analyzes Divvy Bikeshare Data',
     start_date=datetime(2019, 2, 4),
     schedule_interval='@daily')
-Creating Operators to Perform Tasks
-Operators define the atomic steps of work that make up a DAG. Instantiated operators are referred to as Tasks.
+{% endhighlight %}
 
+### Creating Operators to Perform Tasks
+- Operators define the atomic steps of work that make up a DAG. Instantiated operators are referred to as Tasks.
+
+{% highlight python %}
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
@@ -38,6 +40,7 @@ task = PythonOperator(
     python_callable=hello_world,
     dag=divvy_dag)
 {% endhighlight %}
+
 
 ### Schedules
 Schedules are optional, and may be defined with cron strings or Airflow Presets. Airflow provides the following presets:
@@ -57,10 +60,10 @@ Run the DAG every week
 #### `@monthly` 
 Run the DAG every month
 
-####`@yearly` 
+#### `@yearly` 
 Run the DAG every year
 
-####`None` 
+#### `None` 
 Only run the DAG when the user initiates it
 
 ### Start Date:
