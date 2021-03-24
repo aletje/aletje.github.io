@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Creating a DAG with Airflow"
+date:   2021-03-11 15:05:45 +0100
+categories: jekyll update
+---
+
 # Data Pipelines with Airflow
 
 ## Creating a DAG
@@ -36,19 +43,25 @@ task = PythonOperator(
 Schedules are optional, and may be defined with cron strings or Airflow Presets. Airflow provides the following presets:
 
 #### `@once`
--Run a DAG once and then never again
+Run a DAG once and then never again
+
 #### `@hourly` 
--Run the DAG every hour
+Run the DAG every hour
+
 #### `@daily` 
--Run the DAG every day
+Run the DAG every day
+
 #### `@weekly` 
--Run the DAG every week
+Run the DAG every week
+
 #### `@monthly` 
--Run the DAG every month
+Run the DAG every month
+
 ####`@yearly` 
--Run the DAG every year
+Run the DAG every year
+
 ####`None` 
--Only run the DAG when the user initiates it
+Only run the DAG when the user initiates it
 
 ### Start Date:
 If your start date is in the past, Airflow will run your DAG as many times as there are schedule intervals between that start date and the current date.
