@@ -11,7 +11,7 @@
 
 `from airflow import DAG`
 
-{{% highlight python %}}
+{% highlight python %}
 divvy_dag = DAG(
     'divvy',
     description='Analyzes Divvy Bikeshare Data',
@@ -32,7 +32,7 @@ task = PythonOperator(
     python_callable=hello_world,
     dag=divvy_dag)
 
-{{% endhighlight %}}
+{% endhighlight %}
 
 ### Schedules
 Schedules are optional, and may be defined with cron strings or Airflow Presets. Airflow provides the following presets:
