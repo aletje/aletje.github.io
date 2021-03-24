@@ -5,6 +5,8 @@ date:   2021-03-24
 categories: airflow
 ---
 
+##### Notes from Udacity Data Engineering Nano Degree - lesson 1 chapter 21
+
 ### Connection via Airflow Hooks
 Connections can be accessed in code via hooks. Hooks provide a reusable interface to external systems and databases. With hooks, you don’t have to worry about how and where to store these connection strings and secrets in your code.
 
