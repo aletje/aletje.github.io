@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Data Pipelines with Airflow - Creating a DAG"
-date:   2021-03-11 15:05:45 +0100
-categories: DAG, Airflow, Data Pipeline, ETL
+date:   2021-03-24
+categories: DAG, Airflow, Data-Pipeline, ETL
 ---
 
+##### Notes from Udacity Data Engineering Nano Degree - lesson 1 chapter 13
+
 ### Creating a DAG:
-Notes from Udacity Data Engineering Nano Degree - lesson 1 chapter 13
+
 
 - Give it a name
 - description 
